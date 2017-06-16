@@ -1,0 +1,19 @@
+
+<div class=" container-fluid outer">
+  <div class="middle">
+    <div class="inner">
+     <div>Pick a game below</div>
+     <select id="gamesList" multiple="multiple">
+	 <option *ngFor="let game of games" value= {{game.id}}>
+     {{game.name}}
+     </option>
+     </select>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
